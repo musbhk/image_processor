@@ -2,7 +2,7 @@ clear;clc;close all;
 
 ip=imageprocessor();
 
-img=ip.load_image('test_1.png');
+img=ip.load_image('');
 stars=ip.detect_stars(img);
 mu = mean(img(:));
 sig = std(img(:));
