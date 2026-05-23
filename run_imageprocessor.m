@@ -2,7 +2,7 @@ clear;clc;close all;
 
 ip=imageprocessor();
 
-img=ip.load_image('');
+img=ip.load_image(''); %file name
 stars=ip.detect_stars(img);
 mu = mean(img(:));
 sig = std(img(:));
